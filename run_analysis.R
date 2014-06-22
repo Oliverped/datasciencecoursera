@@ -83,8 +83,5 @@ for(i in 1:subjectLen) {
         }
 }
 
-#head(result)
 write.table(result, "dataWithMeans.txt") # write out the 2nd dataset
 
-# data <- read.table("./dataWithMeans.txt")
-# data[1:12, 1:3]
